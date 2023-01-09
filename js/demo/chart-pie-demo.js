@@ -7,11 +7,11 @@ var ctx = document.getElementById("myPieChart");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Direct", "Referral", "Social"],
+    labels: ["Werkend", "Storing", "Failed"],
     datasets: [{
       data: [55, 30, 15],
-      backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
-      hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
+      backgroundColor: ['#353b45', '#fcbf49', '#8c98ab'],
+      hoverBackgroundColor: ['#353b45', '#fcbf49', '#8c98ab'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
     }],
   },
@@ -19,7 +19,7 @@ var myPieChart = new Chart(ctx, {
     maintainAspectRatio: false,
     tooltips: {
       backgroundColor: "rgb(255,255,255)",
-      bodyFontColor: "#858796",
+      bodyFontColor: "#1a1d20",
       borderColor: '#dddfeb',
       borderWidth: 1,
       xPadding: 15,

@@ -1,6 +1,6 @@
 // Set new default font family and font color to mimic Bootstrap's default styling
 Chart.defaults.global.defaultFontFamily = 'Nunito', '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif';
-Chart.defaults.global.defaultFontColor = '#858796';
+Chart.defaults.global.defaultFontColor = '#fcbf49';
 
 function number_format(number, decimals, dec_point, thousands_sep) {
   // *     example: number_format(1234.56, 2, ',', ' ');
@@ -36,13 +36,13 @@ var myLineChart = new Chart(ctx, {
     datasets: [{
       label: "Earnings",
       lineTension: 0.3,
-      backgroundColor: "rgba(78, 115, 223, 0.05)",
-      borderColor: "rgba(78, 115, 223, 1)",
+      backgroundColor: "rgba(252, 191, 73, 0.05)",
+      borderColor: "rgba(252, 191, 73, 1)",
       pointRadius: 3,
-      pointBackgroundColor: "rgba(78, 115, 223, 1)",
-      pointBorderColor: "rgba(78, 115, 223, 1)",
+      pointBackgroundColor: "rgba(252, 191, 73, 1)",
+      pointBorderColor: "rgba(252, 191, 73, 1)",
       pointHoverRadius: 3,
-      pointHoverBackgroundColor: "rgba(78, 115, 223, 1)",
+      pointHoverBackgroundColor: "rgba(252, 191, 73, 1)",
       pointHoverBorderColor: "rgba(78, 115, 223, 1)",
       pointHitRadius: 10,
       pointBorderWidth: 2,
@@ -82,8 +82,8 @@ var myLineChart = new Chart(ctx, {
           }
         },
         gridLines: {
-          color: "rgb(234, 236, 244)",
-          zeroLineColor: "rgb(234, 236, 244)",
+          color: "rgb(252, 191, 73)",
+          zeroLineColor: "rgb(252, 191, 73)",
           drawBorder: false,
           borderDash: [2],
           zeroLineBorderDash: [2]
@@ -95,9 +95,9 @@ var myLineChart = new Chart(ctx, {
     },
     tooltips: {
       backgroundColor: "rgb(255,255,255)",
-      bodyFontColor: "#858796",
+      bodyFontColor: "#212529",
       titleMarginBottom: 10,
-      titleFontColor: '#6e707e',
+      titleFontColor: '#212529',
       titleFontSize: 14,
       borderColor: '#dddfeb',
       borderWidth: 1,

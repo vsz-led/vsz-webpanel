@@ -36,7 +36,7 @@ var myLineChart = new Chart(ctx, {
     datasets: [{
       label: "Earnings",
       lineTension: 0.3,
-      backgroundColor: "rgba(252, 191, 73, 0.05)",
+      backgroundColor: "rgba(26, 29, 32, 0.05)",
       borderColor: "rgba(252, 191, 73, 1)",
       pointRadius: 3,
       pointBackgroundColor: "rgba(252, 191, 73, 1)",

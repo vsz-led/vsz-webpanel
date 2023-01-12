@@ -10,8 +10,8 @@ var myPieChart = new Chart(ctx, {
     labels: ["Werkend", "Storing", "Failed"],
     datasets: [{
       data: [55, 30, 15],
-      backgroundColor: ['#353b45', '#fcbf49', '#8c98ab'],
-      hoverBackgroundColor: ['#353b45', '#fcbf49', '#8c98ab'],
+      backgroundColor: ['#3ade0d', '#de9c0d', '#de0d0d'],
+      hoverBackgroundColor: ['#3ade0d', '#de9c0d', '#de0d0d'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
     }],
   },

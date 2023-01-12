@@ -34,7 +34,7 @@ var myLineChart = new Chart(ctx, {
   data: {
     labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
     datasets: [{
-      label: "Earnings",
+      label: " ",
       lineTension: 0.3,
       backgroundColor: "rgba(26, 29, 32, 0.05)",
       borderColor: "rgba(252, 191, 73, 1)",

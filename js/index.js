@@ -18,3 +18,14 @@ fetch('/client/kruisingen')
     .catch((error) => {
         console.log(error)
     })
+
+fetch('/client/opdrachtgevercount')
+    .then((response) => {
+        response.text().then(data => {
+            console.log(data)
+            document.getElementById('opdrachtgevercount').innerHTML = data
+        })
+    })
+    .catch((error) => {
+        console.log(error)
+    })

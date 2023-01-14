@@ -6,7 +6,7 @@ fetch('/client/kruisingen')
             data.forEach(kruising => {
                 kruisingen += "<tr>\n" +
                     "<td>" + kruising.Kruisingscode + "</td>\n" +
-                    "<td>" + kruising.Bedrijfscode + "</td>\n" +
+                    "<td>" + kruising.Bedrijfsnaam + "</td>\n" +
                     "<td>" + kruising.Plaats + "</td>\n" +
                     "<td>" + kruising.Weg + "</td>\n" +
                     "<td>" + kruising.Plaatsing + "</td>\n" +

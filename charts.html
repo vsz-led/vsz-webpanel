@@ -302,7 +302,7 @@
                     <!-- Content Row -->
                     <div class="row">
 
-                        <div class="col-xl-8 col-lg-7">
+                        <div class="col-xl-12 col-lg-7">
 
                             <!-- Area Chart -->
                             <div class="card shadow mb-4">
@@ -317,41 +317,30 @@
                                     
                                 </div>
                             </div>
-
-                            <!-- Bar Chart -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-5">
+                            <!-- Project Card Example -->
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-dark">Onderhoudskosten</h6>
+                                    <h6 class="m-0 font-weight-bold text-dark">Auto's per opdrachtgever</h6>
                                 </div>
-                                <div class="card-body">
-                                    <div class="chart-bar">
-                                        <canvas id="myBarChart"></canvas>
-                                    </div>
-                                    <hr>
-                                    
-                                    <code></code>
+                                <div class="card-body" id="autosopdrachtgever">
                                 </div>
                             </div>
-
+                        </div>
+                        <div class="col-xl-6 col-lg-5">
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-dark">Auto's per kruispunt</h6>
+                                </div>
+                                <div class="card-body" id="autoskruising">
+                                </div>
+                            </div>
                         </div>
 
-                        <!-- Donut Chart -->
-                        <div class="col-xl-4 col-lg-5">
-                            <div class="card shadow mb-4">
-                                <!-- Card Header - Dropdown -->
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-dark">Status</h6>
-                                </div>
-                                <!-- Card Body -->
-                                <div class="card-body">
-                                    <div class="chart-pie pt-4">
-                                        <canvas id="myPieChart"></canvas>
-                                    </div>
-                                    <hr>
-                                    
-                                    <code></code>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
@@ -419,6 +408,8 @@
     <script src="js/demo/chart-area-demo.js"></script>
     <script src="js/demo/chart-pie-demo.js"></script>
     <script src="js/demo/chart-bar-demo.js"></script>
+
+    <script src="js/charts.js"></script>
 
 </body>
 
